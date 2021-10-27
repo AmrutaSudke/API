@@ -1,0 +1,253 @@
+{
+    "posts": [
+        {
+            "id": 1,
+            "title": "json-server1",
+            "author": "typicode1"
+        },
+        {
+            "id": 2,
+            "title": "json-server2",
+            "author": "typicode2"
+        },
+        {
+            "id": 3,
+            "title": "json-server3",
+            "author": "typicode3"
+        },
+        {
+            "id": 4,
+            "title": "json-server4",
+            "author": "typicode4"
+        },
+        {
+            "id": 5,
+            "title": "json-server5",
+            "author": "typicode5"
+        }
+    ],
+    "comments": [
+        {
+            "id": 1,
+            "body": "some comment",
+            "postId": 1
+        },
+        {
+            "id": 2,
+            "body": "some comment2",
+            "postId": 2
+        },
+        {
+            "id": 3,
+            "body": "some comment3",
+            "postId": 3
+        },
+        {
+            "id": 4,
+            "body": "some comment4",
+            "postId": 4
+        },
+        {
+            "id": 5,
+            "body": "some comment5",
+            "postId": 5
+        }
+    ],
+    "profile": [
+        {
+            "name": "typicode1"
+        },
+        {
+            "name": "typicode2"
+        },
+        {
+            "name": "typicode3"
+        },
+        {
+            "name": "typicode4"
+        },
+        {
+            "name": "typicode5"
+        }
+    ],
+    "cases_time_series": [
+        {
+            "dailyconfirmed": "1",
+            "dailydeceased": "0",
+            "dailyrecovered": "0",
+            "date": "30 January 2020"
+        },
+        {
+            "dailyconfirmed": "0",
+            "dailydeceased": "1",
+            "dailyrecovered": "0",
+            "date": "31 January 2020"
+        },
+        {
+            "dailyconfirmed": "1",
+            "dailydeceased": "0",
+            "dailyrecovered": "0",
+            "date": "1 February 2020"
+        },
+        {
+            "dailyconfirmed": "1",
+            "dailydeceased": "0",
+            "dailyrecovered": "0",
+            "date": "2 February 2020"
+        },
+        {
+            "dailyconfirmed": "1",
+            "dailydeceased": "0",
+            "dailyrecovered": "0",
+            "date": "3 February 2020"
+        }
+    ],
+    "statewise": [
+        {
+            "active": "363849",
+            "confirmed": "32249900",
+            "deaths": "432112",
+            "deltaconfirmed": "24692"
+        },
+        {
+            "active": "363844",
+            "confirmed": "32249900",
+            "deaths": "432112",
+            "deltaconfirmed": "24692"
+        },
+        {
+            "active": "363845",
+            "confirmed": "32249900",
+            "deaths": "432112",
+            "deltaconfirmed": "24692"
+        },
+        {
+            "active": "363848",
+            "confirmed": "32249900",
+            "deaths": "432112",
+            "deltaconfirmed": "24692"
+        },
+        {
+            "active": "363847",
+            "confirmed": "32249900",
+            "deaths": "432112",
+            "deltaconfirmed": "24692"
+        }
+    ],
+    "tested": [
+        {
+            "testedasof": "04/04/2020",
+            "totalsamplestested": "79950"
+        },
+        {
+            "testedasof": "05/04/2020",
+            "totalsamplestested": "79951"
+        },
+        {
+            "testedasof": "06/04/2020",
+            "totalsamplestested": "79956"
+        },
+        {
+            "testedasof": "07/04/2020",
+            "totalsamplestested": "79957"
+        },
+        {
+            "testedasof": "08/04/2020",
+            "totalsamplestested": "79958"
+        }
+    ],
+    "confirmed": [
+        {
+            "value": 244996373,
+            "detail": "https://covid19.mathdro.id/api/confirmed"
+        },
+        {
+            "value": 244996393,
+            "detail": "https://covid19.mathdro.id/api/confirmed"
+        },
+        {
+            "value": 244996773,
+            "detail": "https://covid19.mathdro.id/api/confirmed"
+        },
+        {
+            "value": 244996573,
+            "detail": "https://covid19.mathdro.id/api/confirmed"
+        },
+        {
+            "value": 244996473,
+            "detail": "https://covid19.mathdro.id/api/confirmed"
+        }
+    ],
+    "recovered": [
+        {
+            "value": 67,
+            "detail": "https://covid19.mathdro.id/api/recovered"
+        },
+        {
+            "value": 97,
+            "detail": "https://covid19.mathdro.id/api/recovered"
+        },
+        {
+            "value": 47,
+            "detail": "https://covid19.mathdro.id/api/recovered"
+        },
+        {
+            "value": 787,
+            "detail": "https://covid19.mathdro.id/api/recovered"
+        },
+        {
+            "value": 467,
+            "detail": "https://covid19.mathdro.id/api/recovered"
+        }
+    ],
+    "deaths": [
+        {
+            "value": 4971578,
+            "detail": "https://covid19.mathdro.id/api/deaths"
+        },
+        {
+            "value": 4971688,
+            "detail": "https://covid19.mathdro.id/api/deaths"
+        },
+        {
+            "value": 4971788,
+            "detail": "https://covid19.mathdro.id/api/deaths"
+        },
+        {
+            "value": 4971548,
+            "detail": "https://covid19.mathdro.id/api/deaths"
+        },
+        {
+            "value": 4971528,
+            "detail": "https://covid19.mathdro.id/api/deaths"
+        }
+    ],
+    "dailyTimeSeries":[
+        {
+            "pattern": "https://covid19.mathdro.id/api/daily/[dateString]",
+        "example": "https://covid19.mathdro.id/api/daily/2-14-2020"
+
+        },
+        {
+            "pattern": "https://covid19.mathdro.id/api/daily/[dateString]",
+        "example": "https://covid19.mathdro.id/api/daily/2-14-2020"
+
+        },
+        {
+            "pattern": "https://covid19.mathdro.id/api/daily/[dateString]",
+        "example": "https://covid19.mathdro.id/api/daily/2-14-2020"
+
+        },
+        {
+            "pattern": "https://covid19.mathdro.id/api/daily/[dateString]",
+        "example": "https://covid19.mathdro.id/api/daily/2-14-2020"
+
+        },
+        {
+            "pattern": "https://covid19.mathdro.id/api/daily/[dateString]",
+        "example": "https://covid19.mathdro.id/api/daily/2-14-2020"
+
+        }
+
+    ] 
+}
